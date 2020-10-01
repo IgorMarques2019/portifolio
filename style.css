@@ -1,0 +1,130 @@
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: arial;
+ }
+
+ html, body {
+     max-width: 1366px;
+     height: 100%;
+     margin: 0 auto;
+ }
+ body {
+     background-color: #373737;
+ }
+
+ aside {
+     box-sizing: border-box;
+     display: flex;
+     width: 100%;
+     height:635px;
+     background:url(https://images5.alphacoders.com/985/985798.png);
+     border-bottom: 4px solid purple;
+     background-size: cover;
+     background-position: center;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+     flex-direction: row;
+     padding: 10px;
+ }
+
+ aside h1 {
+     text-shadow: 1px 3px 5px #b10333;
+     text-align: center;
+     font-weight: Normal;
+     font-size: 50px;
+     color: #ededed;
+ }
+
+
+ @keyframes neon {
+     from {
+        filter:drop-shadow(0 0 0 var(--cor-neon));
+     }
+
+
+     to {
+filter: drop-shadow(0 0 30px var(--cor-neon));
+     }
+ }
+ /* -------------------------------- sobre Mim ------------------------------- */
+
+ section {
+     box-sizing:border-box;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items:baseline;
+     background: url(https://as2.ftcdn.net/jpg/02/38/18/75/500_F_238187544_u8F10k9npEamfyi2fVRtkzShyLPkXjDH.jpg) repeat;
+ }
+
+ .info-profile {
+     background-color:rgba(255, 255, 255, 0.89);
+     box-sizing: border-box;
+     padding: 20px;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     width:100%;
+     justify-content:center;
+   
+    
+
+    
+    
+ }
+
+ .profile-pic, .profile-message {
+     margin:10px;
+
+ }
+
+ .profile-pic {
+     width: 200px;
+     height:200px;
+ }
+
+ .profile-pic img {
+     width: 100%;
+     height:100%;
+     animation: neon 3s alternate infinite ease-in-out;
+     border:2px solid rgba(0, 0, 0, 0.685);
+
+ }
+
+ .profile-message {
+     text-align: justify;
+     width: 700px;
+     color: white;
+ }
+
+ .profile-message p {
+     color: rgb(37, 37, 37);
+     margin-bottom: 10px;
+     font-size: 1em;
+     letter-spacing: 2px;
+ }
+
+ h2 {
+     width:100%;
+     text-align: center;
+     padding:20px 0;
+     font-size:1.4em;
+     letter-spacing: 4px;
+     color: #500e21;
+     text-transform: uppercase;
+
+ }
+
+ .texto {
+     --cor-neon:rgb(255, 255, 255);
+ }
+
+ footer {
+     padding:20px;
+     background:linear-gradient(to right ,#1c2b88,purple);
+     color:white;
+     text-align: center;
+ }
